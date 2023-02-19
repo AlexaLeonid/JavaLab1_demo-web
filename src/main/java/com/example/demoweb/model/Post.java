@@ -43,6 +43,11 @@ public class Post implements Serializable {
         this.likes = likes;
     }
 
+    public void setCreationDate(Date creationDate){this.creationDate = creationDate;}
+
     public Long getId(){return id;}
+    public void setId(long id){
+        this.id = id;
+    }
 
 }
